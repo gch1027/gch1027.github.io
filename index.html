@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale"/>
 		<title>八十班</title>
 	</head>
 	<body>
-		<h1>声明：这是辉县市太行中学八（10）班在线网页</h1>
-		<h2><em>目前处于测试阶段，站长：大帅逼</em></h2><hr>
-		<p>语文老师：李老师</p>
-		<p>数学老师：赵红梅（班主任）</p>
-		<p>英语老师：宰老师</p>
+		<h1>Welcome To Class 10 Grade 8</h1>
+		<h3>声明：这是河南省新乡市辉县市太行中学八（10）班在线网页</h3>
+		<h4><em>目前处于测试阶段，站长：--<八(10)班: 高常惠>--</em></h4><hr>
+		<p>语文老师：<strong>李老师</strong></p>
+		<p>数学老师：<strong>赵红梅</strong><em>（班主任）</em></p>
+		<p>英语老师：<strong>宰老师</strong></p>
 		<table border="1px">
 			<tr>
 				<td colspan="2">1</td>
@@ -64,7 +66,7 @@
 				<td>刘书延</td>
 				<td>陈珂</td>
 				<td>丨</td>
-				<td><em>-站长-</em></strong></td>
+				<td bgcolor="pink"><em>-站长-</em></strong></td>
 				<td><strong>陈裕丰(狗哥)</strong></td>
 				<td>丨</td>
 				<td>李慧恬</td>
@@ -173,5 +175,88 @@
 		<p>又双累了？来看几张图片放松一下吧！<a target="_blank" href="https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=index&fr=&hs=0&xthttps=111110&sf=1&fmq=&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&word=%E9%A3%8E%E6%99%AF%E5%9B%BE%E7%89%87%E5%A4%A7%E5%85%A8&f=3&oq=%E9%A3%8E%E6%99%AF&rsp=0">点击跳转</a></p>
 		<p><strong><em>欢迎大家给我提建议！！！</em></strong></p>
 		<p><strong><em>同时我也感谢大家的宝贵建议！！</em></strong></p>
+		<hr>
+		<form action="Test.html" method="get">
+			<p>
+				<!-- 
+					HTML5的初级认证
+					placeholder: 提示性文字
+					required: 必填项
+				-->
+				编号：<input type="text" placeholder="请输入编号(必填)" required name="" value="">
+			</p>
+		<p>
+			<!-- 
+				text: 表示文本框
+				size: 表示文本框的尺寸大小
+				maxlength: 可以输入的最大长度
+				disabled: 禁用
+				readonly: 只读
+			-->
+			用户名：<input type="text" placeholder="请输入用户名(必填)" required maxlength="10" size="30"name="username" id="" value="" />
+		</p>
+		<p>
+			<!-- password: 密码框 -->
+			密码：<input type="password" placeholder="请输入密码(必填)" required maxlength="6" name="" value="">
+			</p>
+			<p>
+				<!-- radio: 单选按钮  checked: 表示默认被选中 
+					name: 表示input的名称
+					value: 表示输入或选择的内容
+				-->
+				性别:
+				<input type="radio" id="man" checked name="sex" value="男">
+				<label for="man">男</label>
+				<input type="radio" id="woman" name="sex" value="女">
+				<label for="woman">女</label>
+			</p>
+			<p>
+				<!-- checkbox: 复选框 -->
+				爱好：
+				<input type="checkbox" name="hobby" value="唱">唱
+				<input type="checkbox" name="hobby" value="跳">跳
+				<input type="checkbox" name="hobby" value="rap">Rap
+				<input type="checkbox" name="hobby" value="打篮球">打篮球
+			</p>
+			<p>
+				<!-- 
+					select: 表示下拉列表
+					option: 表示每一项
+				-->
+				地址：
+					<select>
+						<option value="">全部</option>
+						<option value="">中国</option>
+						<option value="">美国</option>
+					</select>国
+					<select>
+						<option value="">全部</option>
+						<option value="">河南省</option>
+						<option value="">山东省</option>
+					</select>省
+					<select>
+						<option value="">全部</option>
+						<option value="">新乡市</option>
+						<option value="">辉县市</option>
+					</select>市
+			</p>
+			<p>
+				<!-- file: 文件域 -->
+				文件：<input type="file"/>
+			</p>
+			<p>
+				邮箱：
+					<input type="email" name="email" id="">
+			</p>
+			<p>
+				个人说明：
+					<textarea placeholder="介绍一下自己" name="" id="" cols="20" rows="5"></textarea>
+			</p>
+			<p>
+				<input type="button" value="普通按钮(没用别点真的没用)">
+				<input type="submit" value="提交按钮">
+				<input type="reset" value="重置按钮">
+			</p>
+		</form>
 	</body>
 </html>
