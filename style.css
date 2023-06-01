@@ -7,10 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: bisque;
-}
-
 :root {
     --black: #333;
     --white: #fff;
@@ -85,6 +81,15 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main h2 {
